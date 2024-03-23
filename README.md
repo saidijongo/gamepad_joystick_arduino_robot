@@ -1,2 +1,2 @@
 # gamepad_joystick_arduino_robot
-Testing joystick
+Testing joystick/gamepad using arduino and processing
