@@ -13,10 +13,8 @@ const int IN4 = 4;
 const int IN1 = 5;
 const int IN2 = 6;
 void setup() {
-  // Initialize the serial communication for debugging
   Serial.begin(115200);
   
-  // Initialize the motor driver pins as outputs
   pinMode(IN1, OUTPUT);
   pinMode(IN2, OUTPUT);
   pinMode(IN3, OUTPUT);
@@ -72,69 +70,6 @@ void executeCommand(char command) {
       digitalWrite(IN3, LOW);
       digitalWrite(IN4, LOW);
       Serial.println("Stop");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
