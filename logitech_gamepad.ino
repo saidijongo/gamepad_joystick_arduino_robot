@@ -1,4 +1,3 @@
-// Include necessary libraries
 #include <usbhid.h>
 #include <hiduniversal.h>
 #include <usbhub.h>
